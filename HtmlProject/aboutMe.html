@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>About Me</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="aboutMe.css">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<div id="oopen">
+	<span class="open" onclick="openNav()">&#9776;</span>
+	<p class="heading">About Me</p>
+</div>
+<div id="main">
+	<hr class="rule">
+	<p class="welcome">Achievements</p>
+	<p class="me">
+		I had my schooling till 10th from hometown and then moved to FIITJEE (Punjabi Bagh) where I worked really hard (like really really <i class="em em-boy"></i><i class="em em-gun"></i>).I used to be a complete nerd during FIITJEE classes <i class="em em-books"></i>, hence I achieved AIR 118 in JEE MAINS and AIR 790 in JEE ADVANCED. I scored 96% in my 12th. I also participated in KVPY where I got AIR 870.
+	</p>
+	<br>
+	<br>
+	<p class="welcome">Interests</p>
+	<p class="me">
+		I like to travel and fun around. Listening music and gaming <i class="em em-video_game"></i> is on top of my list. I love to listen Arijit Singh, Atif Aslam, Diljeet, Bruno Mars. Talking about games I love to play FIFA, NFS. I also had the memory of childhood with classic favourites-Age of Empires, NFS Most Wanted with my big brother and in the beginning I used to get trolled <i class="em em-unamused"></i> like....
+	</p>
+	<img src="play.jpeg" class="play" alt="Loading">
+	<p class="me">
+		I have some common interests like watching cricket, movies, TV series (Big time F.r.i.e.n.d.s and GOT fan). Sometimes I wish I could do " How you doin' " in Joey's style <i class="em em-sweat_smile"></i>. I strongly love maths and coding too.
+	</p>
+	<p class="me">
+		Besides all the material love, I have this soft corner for Dogs. Being in CCC is one of the best things that has happened to me in college.
+	</p>
+	<p class="me" id="oreo">Our oreo <i class="em em-heart"></i></p>
+	<img src="oreo.jpeg" class="oreo" alt="Loading">
+</div>
+<div class="sidenav" id="mySidenav">
+	<a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+	<a href="tanuj.html" class="tablinks">Home</a>
+	<a href="aboutMe.html" class="tablinks">About Me</a>
+	<a href="gallery.html" class="tablinks">Gallery</a>
+	<a href="contactMe.html" class="tablinks">Contact Me</a>
+</div>
+<div class="footer" id="footer">
+	<p>&copy; Tanuj Garg - IIIT Hyderabad. 2017</p>
+</div>
+<script>
+function openNav() {
+	document.getElementById("mySidenav").style.width="250px";
+	document.getElementById("main").style.marginLeft="250px";
+	document.getElementById("oopen").style.marginLeft="250px";
+	document.getElementById("footer").style.marginLeft="250px";
+}
+
+function closeNav() {
+	document.getElementById("mySidenav").style.width="0";
+	document.getElementById("oopen").style.marginLeft="0";
+	document.getElementById("main").style.marginLeft="0";
+	document.getElementById("footer").style.marginLeft="0";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Tanuj Garg</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="tanuj.css">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<div id="oopen">
+	<span class="open" onclick="openNav()">&#9776;</span>
+	<p class="welcome">Home</p>
+</div>
+
+<div id="main">
+	<hr class="rule">
+	<p class="introduction">INTRODUCTION</p>
+	<p class="me">
+	I was born on 11 October 1999, in Bhiwani <i class="em em-hatching_chick"></i>. Talking about my family, I have an elder brother who is a software engineer and an elder sister who is a CA. My father Mr Mahesh Garg is a business man and my mother Mrs Nirmala garg is a home maker. Funny thing, in my childhood I was so crazy about numbers, I used to write tables of thousands (now I also don't understand what I was thinking, right <i class="em em-stuck_out_tongue_closed_eyes"></i> ). I used to get blackmailed over learning Maths by my sister (I tell you! She is such an evil <i class="em em-smiling_imp"></i> ).
+	</p>
+	<img src="me.jpeg" alt="Loading" class="d">
+	<br>
+	<p class="me">
+	And me, well you know it. Life here @IIIT-H is not at all easy and thus you don't get much time to relax. However, with the company of my newly made friends, slowly it is becoming more easier as compared to what it was two months ago.
+	</p>
+	<p class="me">
+		Friends are family here
+	</p>
+	<img src="friends.jpeg" alt="Loading" class="pic">
+</div>
+<div class="intro" id="x">
+	<p class="name"> Tanuj Garg </p>
+	<img src="myself.jpeg"  alt="Loading" class="tanuj">
+	<table>
+		<tr>
+			<td class="a">Full Name:</td>
+			<td class="b">Tanuj Garg</td>
+		</tr>
+		<tr>
+			<td class="a">Date of Birth:</td>
+			<td class="b">11 October, 1999</td>
+		</tr>
+		<tr>
+			<td class="a">Place of Birth:</td>
+			<td class="b">Bhiwani, Haryana</td>
+		</tr>
+		<tr>
+			<td class="a">Email:</td>
+			<td class="b">tanuj.garg@students.iiit.ac.in</td>
+		</tr>
+		<tr>
+			<td class="a">Address:</td>
+			<td class="b">348 Bakul Nivas, IIIT Hyderabad, Gachibowli, Hyderabad</td>
+		</tr>
+	</table>
+</div>
+
+<div class="sidenav" id="mySidenav">
+	<a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+	<a href="tanuj.html" class="tablinks">Home</a>
+	<a href="aboutMe.html" class="tablinks">About Me</a>
+	<a href="gallery.html" class="tablinks">Gallery</a>
+	<a href="contactMe.html" class="tablinks">Contact Me</a>
+</div>
+<div class="footer" id="footer">
+	<p>&copy; Tanuj Garg - IIIT Hyderabad. 2017</p>
+</div>
+<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width="250px";
+		document.getElementById("main").style.marginLeft="250px";
+		document.getElementById("oopen").style.marginLeft="250px";
+		document.getElementById("footer").style.marginLeft="250px";
+		document.getElementById("x").style.width="15%";
+	}
+
+	function closeNav() {
+		document.getElementById("mySidenav").style.width="0";
+		document.getElementById("oopen").style.marginLeft="0";
+		document.getElementById("main").style.marginLeft="0";
+		document.getElementById("footer").style.marginLeft="0";
+		document.getElementById("x").style.width="25%";
+	}
+</script>
+
+</body>
+</html>
+	

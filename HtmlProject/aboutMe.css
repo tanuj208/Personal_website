@@ -1,0 +1,130 @@
+body{
+	background-image: url("wood.jpg");
+	background-size: cover;
+}
+
+#oopen{
+	transition: margin-left .5s;
+	padding: 16px;
+}
+
+#main{
+	transition: margin-left .5s;
+}
+.sidenav {
+	height: 100%;
+	width: 0;
+       	position: fixed;
+  	z-index: 1;
+	top: 0;
+ 	left: 0;
+        background-color:grey;
+        overflow-x: hidden;
+    	transition: 0.5s;
+    	padding-top: 60px;
+}
+
+.tablinks{
+	padding: 8px 8px 8px 32px;
+ 	font-size: 25px;
+	color:pink;
+      	display:block;
+	transition:0.3s;
+   	background-color:inherit;
+	cursor:pointer;
+      	text-decoration:none;
+}
+.tablinks:hover{
+	color:black;
+     	font-size:30px;
+}
+.closebutton{
+	position : absolute;
+   	top: 0;
+     	right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+       	color:black;
+}
+
+.closebutton:hover{
+	color:white;
+     	font-size:40px;
+	transition:font-size 0.3s;
+}
+
+.open{
+	font-size:30px;
+	font-weight:bold;
+	cursor:pointer;
+       	color:black;
+   	display:inline;
+}
+
+.welcome{
+	font-family: 'Great Vibes', cursive;
+	margin-left:18%;
+	font-weight:bold;
+	font-size:50px;
+	display:inline;
+}
+
+.heading{
+	font-family: 'Great Vibes', cursive;
+	font-weight:bold;
+	font-size:60px;
+	display: inline;
+	margin-left: 35%;
+}
+
+.rule{
+	margin-top: 0.5px;
+	border-width:2px;
+}
+
+.me{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left:17%;
+	margin-right:20%;
+	font-size:20px;
+	line-height:200%;
+}
+
+.footer{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin:0;
+	padding:20px;
+	background-color:#484848;
+	color:white;
+	border: 2px solid skyblue;
+	font-size:20px;
+	margin-top:40px;
+}
+
+.play{
+	height:40vh;
+	margin-left:30%;
+	padding: 10px 10px 25px 10px;
+	background:#722f37;
+	border: 1px solid #fff;
+	box-shadow: 0px 2px 15px #333;
+}
+
+.oreo{
+	height:45vh;
+	margin-left:30%;
+	padding: 10px 10px 25px 10px;
+	background:#722f37;
+	border: 1px solid #fff;
+	box-shadow: 0px 2px 15px #333;
+	-webkit-transform: rotate(-4deg);
+	transform: rotate(-4deg);
+}
+
+#oreo{
+	margin-left:20%;
+}
+
+#footer{
+	transition: margin-left .5s;
+}
